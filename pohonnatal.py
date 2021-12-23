@@ -12,13 +12,14 @@ for i in range(1, (height + height) - 2):
 for a in range(height + 1):
     if a % (height + 1) == 1:
        test = height - 2
-       print(test * '~~' + a * '|||' + test * '~~')
+       print(test * '~~' + a * '||' + test * '~~')
     if a % (height + 1) == 1:
        test = height - 2
-       print(test * '~~' + a * '|||' + test * '~~')
-       print(test * '~~' + a * '|||' + test * '~~')
-       print(test * '~~' + a * '###' + test * '~~')
+       print(test * '~~' + a * '||' + test * '~~')
+       print(test * '~~' + a * '||' + test * '~~')
+       print(test * '~~' + a * '##' + test * '~~')
+       print(test * '~~' + a * '**' + test * '~~')
 
 
-       print("```````````````````Merry Christmas 2021``````````````")
-       print ("```````````````````~~~~by dyan~~~~~`````````````````")
+       print("```````````````````Merry Christmas 2021```````````````")
+       print ("```````````````````~~~~by dyan~~~~~```````````````````")
